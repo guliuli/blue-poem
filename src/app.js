@@ -6,8 +6,11 @@
  	Switch
  } from 'antd';
 
- import AutoSuggest from './autosuggest';
- import Header from './header';
+ import {
+ 	AutoSuggest,
+ 	Header
+ } from './index';
+
 
  const suggestions = ['C', 'C++', 'Python', 'Java', 'Javascript', 'PHP'];
  const handleSelect = selection => alert(`You selected ${selection}`);
